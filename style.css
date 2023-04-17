@@ -1,0 +1,19 @@
+/* Impostazioni globali */
+*{box-sizing:border-box;font-family:'Roboto',sans-serif}body{margin:0;padding:0;background-color:#000;color:#fff;font-size:16px}header{display:flex;justify-content:space-between;align-items:center;background-color:#1d1d1d;padding:20px;position:fixed;top:0;left:0;right:0;z-index:999}header h1{font-size:30px;font-weight:bold}nav ul{display:flex}nav li{margin:0 10px;list-style:none}nav a{color:#fff;text-decoration:none;padding:10px 20px;border-radius:5px;transition:all 0.3s ease}nav a:hover{background-color:#444}main{display:flex;justify-content:center;align-items:center;height:100vh;background-image:linear-gradient(to bottom,#000,#111)}section{display:flex;flex-direction:column;justify-content:center;align-items:center;padding:50px;background-color:rgba(255,255,255,0.05);border-radius:10px;box-shadow:0 0 10px rgba(255,255,255,0.1);transition:all 0.3s ease}section:hover{transform:scale(1.1);box-shadow:0 0 20px rgba(255,255,255,0.2)}section h2{font-size:40px;margin-bottom:30px;text-align:center}section p{font-size:20px;text-align:center}button{background-color:#fff;color:#000;border:none;border-radius:5px;padding:10px 20px;font-size:18px;margin-top:30px;cursor:pointer;transition:all 0.3s ease}button:hover{background-color:#000;color:#fff}footer{background-color:#1d1d1d;padding:50px;color:#fff}.footer-menu{display:flex;justify-content:space-between;margin-bottom:30px}.footer-menu-column{flex:1}.footer-menu-column h3{font-size:24px;margin-bottom:20px}.footer-menu-column ul{list-style:none;margin:0;padding:0}.footer-menu-column li{margin-bottom:10px}.footer-menu-column a{color:#fff;text-decoration:none;transition:all 0.3s ease}.footer-menu-column a:hover{color:#aaa}.social-icons{list-style:none;display:flex;justify-content:center;align-items:center;margin:0;padding:0}.social-icons li{margin:0 10px}.social-icons li a{display:flex;justify-content:center;align-items:center;width:30px;height:30px;border-radius:50%;background-color:#000;color:#fff}.social-icons li a:hover{background-color:#3b5998}.social-icons li a:hover i{color:#fff}.social-icons li a i{font-size:16px} nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0;
+  list-style: none;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
