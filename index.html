@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Il mio gioco</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-3q/H/0yKjSf8b+sFmeeU5qw5Z/x9zZ5jKioD0xU5zf1Bmfmf0w8ar/wR4lPJbWoG9fjY8dp4WxhhB3ONIXq3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$("#theme-toggle").click(function() {
+				$("body").toggleClass("dark-theme");
+			});
+		});
+	</script>
+</head>
+<body>
+	
+	<header>
+		<h1>GIOCONOME</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="login.html">Gioca</a></li>
+				<li><a href="classifica.html">Classifiche</a></li>
+				<li><a href="contatti.html">Contatti</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Benvenuto nel mio gioco</h2>
+			<p>premi gioca per iniziare a giocare heeheh</p>
+			<button onclick="window.location.href='login.html'">Gioca</button>
+		</section>
+	</main>
+	<footer>
+		<div class="footer-menu">
+			<div class="footer-menu-column">
+				<h3>Company</h3>
+				<ul>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contatti.html">Contact</a></li>
+				</ul>
+			</div>
+			<div class="footer-menu-column">
+				<h3>Legal</h3>
+				<ul>
+					<li><a href="chepalle.html">Privacy Policy</a></li>
+					<li><a href="ter.html">Terms of Service</a></li>
+				</ul>
+			</div>
+			<div class="footer-menu-column">
+				<h3>Seguici su:</h3>
+				<ul class="social-icons">
+					<li><a href="#"><i class="facebook"></i></a></li>
+					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fab fa-telegram"></i></a></li>
+					<li><a href="#"><i class="fab fa-github"></i></a></li>			
+				</ul>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<p>Il mio gioco &copy; 2023</p>
+			<div class="language-select">
+				<label for="language">Seleziona lingua:</label>
+				<select id="language">
+					<option value="italian">Italiano</option>
+					<option value="english">English</option>
+					<option value="spanish">Español</option>
+					<option value="french">Français</option>
+				</select>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
